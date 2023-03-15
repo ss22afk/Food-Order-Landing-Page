@@ -19,8 +19,20 @@ const HeroTwoSection = () => {
         >
           <Col xs={12}>
             <div className={classes.header_div}>
-              <h2>Why choose us</h2>
-              <p>This is what makes our product different</p>
+              <h2>About Us</h2>
+              <h5>Mission</h5>
+              <p>
+              This platform helps them to network with-in their community across the globe which in-turn opens-up to match with the best opportunities available.
+              It targets Chefs, Chef-Assistants, Business Owners and Food Lovers.
+            </p>
+            <h5>Vision</h5>
+              <p>
+              It empowers and upscale them through the knowledgeable content available on the platform. 
+            </p>
+            <h5>Goal</h5>
+              <p>
+              The goal is to provide recognition to their profession in their industry. 
+            </p>
             </div>
           </Col>
         </Row>

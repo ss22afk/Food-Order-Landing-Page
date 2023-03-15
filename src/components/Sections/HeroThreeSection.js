@@ -109,15 +109,11 @@ const HeroThreeSection = () => {
         >
           <Col xs={12}>
             <div className={classes.header_div}>
-              <h2>Our daily dishes</h2>
-              <p>Check out recommended dishes of your choice</p>
+              <h2>Blog</h2>
+              <p>Content writers(Initially blogs from Alisha can be added)</p>
             </div>
           </Col>
         </Row>
-
-        <Row className={classes.row_dish}>{dishList1}</Row>
-
-        <Row>{dishList2}</Row>
       </Container>
     </section>
   );
