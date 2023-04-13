@@ -4,7 +4,7 @@ import classes from "./HeroSection.module.css";
 import { Row, Col, Container } from "react-bootstrap";
 import { Link } from "react-scroll";
 import "bootstrap/dist/css/bootstrap.min.css";
-import FoodImage from "../../assets/image/FoodImage.webp";
+import FoodImage from "../../assets/image/chef_home.webp";
 
 const HeroSection = () => {
   //Rendering the Hero section(Landing page) on the DOM
@@ -21,23 +21,14 @@ const HeroSection = () => {
           >
             <div className={classes.text__div}>
               <h1>
-                Enjoy <span>home made meals</span> far away from home
+                Enjoy <span>home made meals</span>
               </h1>
+              <h2>
+              Let the World Know You
+              </h2>
               <p>
-                Helping you enjoy comfortable and healthy food anywhere and
-                anytime on the go
+              A social community for Chef, Chef-Assistants, Business Owners & Food Lovers
               </p>
-
-              <Link
-                className={classes.order_button}
-                to="dishes"
-                spy={true}
-                smooth={true}
-                offset={-50}
-                duration={500}
-              >
-                <TheButton>Order Now</TheButton>
-              </Link>
             </div>
           </Col>
           <Col lg={6} className="p-0">
@@ -59,22 +50,6 @@ const HeroSection = () => {
           data-aos-easing="ease-out"
           data-aos-duration="700"
         >
-          <div className={classes.number__properties}>
-            <div>
-              <p className={classes.number__properties__digit}>500+</p>
-              <p className={classes.number__properties__text}>Food partners</p>
-            </div>
-            <div className="mx-4">
-              <p className={classes.number__properties__digit}>1k+</p>
-              <p className={classes.number__properties__text}>
-                orders delivered
-              </p>
-            </div>
-            <div>
-              <p className={classes.number__properties__digit}>12k+</p>
-              <p className={classes.number__properties__text}>Clients</p>
-            </div>
-          </div>
         </Row>
       </Container>
     </section>

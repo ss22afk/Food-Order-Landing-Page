@@ -5,10 +5,11 @@
 
 .text__div {
   position: relative;
-  top: 50%;
+  top: 40%;
   transform: translateY(-50%);
   padding-right: 10%;
   color: var(--textcolor);
+  margin-top: 20%;
 }
 
 .text__div h1 {
@@ -30,6 +31,7 @@
   display: block;
   margin-left: auto;
   width: 87%;
+  margin-top: 24%;
 }
 
 .number__properties {

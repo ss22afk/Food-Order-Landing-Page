@@ -2,9 +2,9 @@ import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import classes from "./HeroTwoSection.module.css";
-import hamimg from "../../assets/Icon/hamburger.svg";
-import deliveryimg from "../../assets/Icon/delivery-man.svg";
-import topimg from "../../assets/Icon/top-food.svg";
+import mission_img from "../../assets/Icon/Mission_svg.svg";
+import vision_img from "../../assets/Icon/Vision_img.png";
+import topimg from "../../assets/Icon/goal-finish-svgrepo-com.svg";
 
 const HeroTwoSection = () => {
   //Rendering the HeroTwo section
@@ -20,19 +20,6 @@ const HeroTwoSection = () => {
           <Col xs={12}>
             <div className={classes.header_div}>
               <h2>About Us</h2>
-              <h5>Mission</h5>
-              <p>
-              This platform helps them to network with-in their community across the globe which in-turn opens-up to match with the best opportunities available.
-              It targets Chefs, Chef-Assistants, Business Owners and Food Lovers.
-            </p>
-            <h5>Vision</h5>
-              <p>
-              It empowers and upscale them through the knowledgeable content available on the platform. 
-            </p>
-            <h5>Goal</h5>
-              <p>
-              The goal is to provide recognition to their profession in their industry. 
-            </p>
             </div>
           </Col>
         </Row>
@@ -49,14 +36,14 @@ const HeroTwoSection = () => {
             <div className={`${classes.card_one} ${classes.card}`}>
               <div className={classes.card_content}>
                 <div className={classes.card_image_div}>
-                  <img src={hamimg} alt="Hanmburger"></img>
+                  <img src={mission_img} alt="Mission" width="60" height="65"/>
                 </div>
                 <div className={classes.card_text_div}>
-                  <h5>Easy to order</h5>
-                  <p>
-                    Order food at a single click and select all food to order at
-                    any poin in time and at ease and comfort{" "}
-                  </p>
+                <h3>Mission</h3>
+              <p>
+              This platform helps them to network with-in their community across the globe which in-turn opens-up to match with the best opportunities available.
+              It targets Chefs, Chef-Assistants, Business Owners and Food Lovers.
+            </p>
                 </div>
               </div>
             </div>
@@ -72,14 +59,13 @@ const HeroTwoSection = () => {
             <div className={`${classes.card_two} ${classes.card}`}>
               <div className={classes.card_content}>
                 <div className={classes.card_image_div}>
-                  <img src={deliveryimg} alt="Delivery man"></img>
+                  <img src={vision_img} alt="Vision" width="60" height="65"/>
                 </div>
                 <div className={classes.card_text_div}>
-                  <h5>fast delivery</h5>
-                  <p>
-                    food delivery fast and reliable and get delivered at
-                    deliivery time and location any day, any time
-                  </p>
+                <h3>Vision</h3>
+                <p>
+                  It empowers and upscale them through the knowledgeable content available on the platform. 
+                </p>
                 </div>
               </div>
             </div>
@@ -99,11 +85,10 @@ const HeroTwoSection = () => {
                   <img src={topimg} alt="Thumbs up"></img>
                 </div>
                 <div className={classes.card_text_div}>
-                  <h5>100% quality</h5>
-                  <p>
-                    We provide quality food for you and your loved ones for
-                    health and so onnnnnn and for wellness
-                  </p>
+                <h5>Goal</h5>
+                <p>
+                  The goal is to provide recognition to their profession in their industry. 
+               </p>
                 </div>
               </div>
             </div>

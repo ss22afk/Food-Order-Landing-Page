@@ -4,7 +4,7 @@ import { Navbar, Nav } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-scroll";
 import classes from "./TheNavbar.module.css";
-import logo from "../../assets/image/logo_2.jpg";
+import logo from "../../assets/image/logo_2.png";
 
 const TheNavbar = (props) => {
   //Layout and structure of the navbar to be passed to THENAV component
@@ -19,7 +19,7 @@ const TheNavbar = (props) => {
       >
         <Navbar.Brand className={classes.navbar_brand}>
           <Link to="hero" spy={true} smooth={true} offset={-50} duration={500}>
-            <img src = {logo} alt="My logo"></img>
+            <img src = {logo} alt="My logo" width = "440" height = "160"></img>
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle
@@ -89,9 +89,6 @@ const TheNavbar = (props) => {
               >
                 Support
               </Link>
-            </Nav.Link>
-            <Nav.Link href="#buttons" className={`${classes.nav__link}`}>
-              <NavCartButton onClick={props.onShowCart} />
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

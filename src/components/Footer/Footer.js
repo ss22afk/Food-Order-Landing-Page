@@ -36,18 +36,6 @@ const Footer = () => {
                   Solution for easy and flexible getting meals for the
                   household.You can trust us anywhere through this platform
                 </p>
-                <p>
-                  &copy;2022 Made with <i className="bi bi-heart-fill"></i>{" "}
-                  by&nbsp;
-                  <a
-                    href="https://github.com/Eniola-Codes"
-                    target="_blank"
-                    rel="noreferrer"
-                    className={classes.eniola_codes}
-                  >
-                    EniolaCodes
-                  </a>
-                </p>
               </div>
             </div>
           </Col>
@@ -106,18 +94,6 @@ const Footer = () => {
               </a>
             </div>
           </Col>
-
-          <p className={classes.mobile_copy}>
-            &copy;2022 Made with <i className="bi bi-heart-fill"></i> by&nbsp;
-            <a
-              href="https://github.com/Eniola-Codes"
-              target="_blank"
-              rel="noreferrer"
-              className={classes.eniola_codes}
-            >
-              EniolaCodes
-            </a>
-          </p>
         </Row>
       </Container>
     </div>

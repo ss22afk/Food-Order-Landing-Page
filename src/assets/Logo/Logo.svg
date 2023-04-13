@@ -1,6 +1,6 @@
 <svg width="107" height="38" viewBox="0 0 107 38" fill="none" xmlns="http://www.w3.org/2000/svg">
 <mask id="mask0_2_206" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="1" y="8" width="107" height="27">
-<path d="src\assets\image\logo_2.jpg" fill="black"/>
+<path d="src\assets\image\logo_2.png" fill="black"/>
 </mask>
 <g mask="url(#mask0_2_206)">
 <rect y="-6.4126" width="107" height="44" fill="url(#paint0_linear_2_206)"/>
